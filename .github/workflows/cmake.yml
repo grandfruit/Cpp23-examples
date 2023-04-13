@@ -28,5 +28,5 @@ jobs:
 
     - run: cmake --workflow --preset default
       env:
-        CC: clang-${{ matrix.v }}
-        CXX: clang-${{ matrix.v }}
+        CC: clang
+        CXX: clang++
