@@ -1,6 +1,7 @@
 name: cmake
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "**.cpp"
